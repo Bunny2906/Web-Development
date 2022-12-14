@@ -1,0 +1,655 @@
+body{
+    margin: 0px;
+    background-color: #f8f6f6;
+    font-family: 'Lato',sans-serif;
+    width: 100%;
+    margin-bottom: -10000px;
+}
+a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #2979ff;
+}
+.headline{
+    height: 25px;
+    width: 100%;
+    background-color: #2979ff;
+    position: relative;
+    color: white;
+    font-size:12px;
+    font-weight:lighter;
+    font-family: 'Lato',sans-serif;
+    font-weight: 550;
+}
+.header{
+    margin-right: 0px;
+}
+.date
+{
+    position: relative;
+    left:70px;
+    top: 5px;
+    font-weight: normal;
+}
+.ragging{
+    position: absolute;
+    right: 85px;
+    top: 5px;
+    font-weight: normal;
+}
+.logo{
+    position: relative;
+    left: 200px;
+    width: 100px;
+    bottom: 0px;
+    display: inline-block;
+}
+.text1{
+    display: inline-block;
+    position: relative;
+    left: 200px;
+    bottom: 70px;
+    text-align: center;
+    padding: 0px;
+    font-family: 'Lato';
+}
+.text2{
+    display: block;
+    position: relative;
+    right: 10px;
+    bottom: 110px;
+    text-align: center;
+    padding: 0px;
+}
+.media{
+    display: inline-block;
+    position: absolute;
+    right: 230px;
+    top: 30px;
+}
+#follow{
+    color: rgb(219, 4, 119);
+    font-weight: bolder;
+    font-family: 'Lato',sans-serif;
+    display: inline-block;
+    position: relative;
+    left: 130px;
+}
+.medialinks{
+   display: inline-block;
+   position: relative;
+   left: 130px;
+   top: 5px;
+}
+.degree{
+    font-weight: bolder;
+    font-family: 'Lato',sans-serif ;
+    color: #2979ff;
+    display: inline-block;
+    position:relative;
+    left: 1100px;
+    bottom: 160px;
+    padding: 5px;
+}
+.apply{
+    position: relative;
+    bottom: 10px;
+}
+.apply:hover, .verify:hover{
+    color: rgb(219, 4, 119);
+}
+.morth{
+    font-weight: bolder;
+    font-family: 'Lato',sans-serif ;
+    color: #2979ff;
+    display: inline-block;
+    position: relative;
+    left: 408px;
+    bottom: 137px;
+}
+.magazine{
+    color: rgb(219, 4, 119);
+    font-weight: 550;
+}
+.blink {
+    animation: blinkingText 1s infinite;
+    color: rgb(219, 4, 119);
+    font-family: 'Lato',sans-serif;
+}
+@keyframes blinkingText {
+    0%
+       {
+            color:white;
+       }
+       20%
+       {
+            color:black;
+       }
+       30%{
+           color:yellow;
+       }
+       50%
+       {
+            color: #ec0909;    
+       }
+       70%{
+            color:blue;
+       }
+        100%
+        {   
+            color: #E8ADAA; 
+            
+        }
+}
+span{
+    text-decoration: none;
+    color: grey;
+}
+.campus{
+    font-weight: bolder;
+    font-family: 'Lato',sans-serif;
+    color: #2979ff;
+    display: inline-block;
+    position: relative;
+    left: 160px;
+    bottom: 140px;
+    padding: 7px;
+}
+.diary:hover, .celeb:hover, .anthem:hover, .eapcet:hover{
+    color:rgb(219, 4, 119);
+}
+.scroll{
+    height: 35px;
+    width: 90%;
+    background-color: green;
+    position: relative;
+    bottom:175px ;
+    left: 135px;
+    right: 200px;
+}
+.updates{
+    position: relative;
+    font-size: 20px;
+    color: white;
+    font-family: 'Lato',sans-serif;
+    top: 5px;
+    font-weight: bold;
+}
+.latest{
+    height: 35px;
+    width: 10%;
+    background-color: rgb(219, 4, 119);
+    position: relative;
+    bottom:140px;
+}
+.news{
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    position: relative;
+    bottom: -10px;
+    left: 12px;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #2979ff;
+    position: relative;
+    bottom: 188px;
+    font-weight: bold;
+    font-size: 15px;
+}
+li{
+    display: block;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.carousel {
+    position: relative;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+    margin-top: 26px;
+}
+.carousel-inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.carousel-open:checked + .carousel-item {
+    position: static;
+    opacity: 100;
+}
+.carousel-item {
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity 0.6s ease-out;
+    transition: opacity 0.6s ease-out;
+}
+.carousel-item img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+.carousel-control {
+    background: rgba(0, 0, 0, 0.28);
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    font-size: 40px;
+    height: 40px;
+    line-height: 35px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    cursor: pointer;
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    text-align: center;
+    width: 40px;
+    z-index: 10;
+}
+.carousel-control.prev {
+    left: 2%;
+}
+.carousel-control.next {
+    right: 2%;
+}
+.carousel-control:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: #aaaaaa;
+}
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3 {
+    display: block;
+}
+.carousel-indicators {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+.carousel-indicators li {
+    display: inline-block;
+    margin: 0 5px;
+}
+.carousel-bullet {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 35px;
+}
+.carousel-bullet:hover {
+    color: #aaaaaa;
+}
+#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+    color: #428bca;
+}
+#title {
+    width: 100%;
+    position: absolute;
+    padding: 0px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 27px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Open Sans', sans-serif;
+    z-index: 9999;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+}
+.carousel{
+    width: 100%;
+    position: relative;
+    bottom: 213px;
+}
+.main{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.direct{
+    position: relative;
+    left: 10px;
+    margin-right: 930px;
+}
+.bar1{
+    position: relative;
+    right: 5px;
+    bottom: 214px;
+    opacity: 55%;
+}
+.about{
+    position: relative;
+    bottom: 228px;
+}
+.links{
+    position: relative;
+    bottom: 248px;
+    right: 8px;
+    font-size: 15px;
+    color: rgb(73, 69, 69);
+    padding: 10px;
+    text-align: justify;
+}
+h3{
+    color: rgb(219, 4, 119);
+    font-size: 16.5px;
+}
+h2{
+    color: rgb(219, 4, 119);
+    font-size: 22px;
+}
+.academics{
+    position: relative;
+    bottom: 260px;
+}
+.methodology{
+    position: relative;
+    bottom:269px;
+    right: 0px;
+    color: rgb(73, 69, 69);
+    font-size: 15px;
+}
+.exams{
+    position: relative;
+    bottom: 275px;
+}
+.resultspage{
+    position: relative;
+    bottom: 143px;
+    color: rgb(73, 69, 69);
+    font-size: 15px;
+}
+.resultspage:hover{
+    color: deeppink;
+}
+.imp{
+    position: relative;
+    bottom: 296px;
+}
+.units{
+    position: relative;
+    bottom: 305px;
+    color: rgb(73, 69, 69);
+    font-size: 15px;
+}
+.other{
+    position: relative;
+    bottom: 312px;
+}
+.links2{
+    position: relative;
+    bottom: 320px;
+    color: rgb(73, 69, 69);
+    font-size: 15px;
+}
+.bar2{
+    position: relative;
+    right: 5px;
+    bottom: 320px;
+    opacity: 55%;
+}
+.content{
+    position: relative;
+    left: 360px;
+    bottom: 890px;
+    margin-right: 350px;
+}
+.text{
+    position: relative;
+    right: 5px;
+    font-size: 16px;
+    bottom: 18px;
+    padding: 10px;
+    color: rgb(73, 69, 69);
+    text-align: justify;
+}
+.vision{
+    position: relative;
+    bottom: 40px;
+}
+.vtext{
+    position: relative;
+    right: 5px;
+    font-size: 15px;
+    bottom: 65px;
+    padding: 10px;
+    color: rgb(73, 69, 69);
+    text-align: justify;
+}
+.mission{
+    position: relative;
+    bottom: 85px;
+}
+.mtext{
+    position: relative;
+    right: 5px;
+    font-size: 15px;
+    bottom: 110px;
+    padding: 10px;
+    color: rgb(73, 69, 69);
+    text-align: justify;
+}
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+    left: 0px;
+    bottom: 90px;
+}
+button{
+    font-family: 'Lato',sans-serif;
+}
+.btn1 {
+    color: white;
+    font-size: 17px;
+    padding: 19px 146px;
+    border: none;
+    cursor: pointer;
+    background-color: #022664;
+    text-align: center;
+}
+.dropdown1-content {
+    display: none;
+    position: absolute;
+    background-color: #022664;
+    min-width: 416px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown1-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown1-content a:hover {background-color: #2568dd}
+.dropdown1:hover .dropdown1-content {
+    display: block;
+}
+.dropdown1:hover .btn1 {
+    background-color: #226ff5;
+}
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+    left: 10px;
+    bottom: 90px;
+}
+.btn2 {
+    color: white;
+    font-size: 17px;
+    padding: 19px 90px;
+    border: none;
+    cursor: pointer;
+    background-color: #022664;
+    text-align: center;
+}
+.dropdown2-content {
+    display: none;
+    position: absolute;
+    background-color: #022664;
+    min-width: 425px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown2-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  .dropdown2-content a:hover {background-color: #2568dd}
+.dropdown2:hover .dropdown2-content {
+    display: block;
+}
+.dropdown2:hover .btn2 {
+    background-color: #226ff5;
+}
+.download{
+    position: relative;
+    left: 80px;
+    bottom: 940px;
+    font-size: 14px;
+}
+.bar3{
+    background-color: rgb(192, 10, 107);
+    height: 5px;
+    width: 90%;
+    margin-bottom: 5px;
+}
+.tab{
+    background-color: #2979ff;
+    color: white;
+    border: none;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 15.5px;
+    margin: 2px;
+    margin-bottom: 10px;
+}
+.tab:hover{
+    background-color: rgb(192, 10, 107);
+}
+#date{
+    color: rgb(242, 33, 145);
+    font-weight: bold;
+}
+#down{
+    color: #2979ff;
+    font-weight: bold;
+    font-weight: 14px;
+}
+.bar4{
+    background-color: rgb(192, 10, 107);
+    height: 5px;
+    width: 90%;
+    margin-bottom: 5px;
+}
+.constituent{
+    position: relative;
+    left: 80px;
+    bottom: 945px;
+}
+.blue-head{
+    position: relative;
+    top: 6px;
+    left:0px;
+    background-color: #2979ff;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    height: 45px;
+    width: 90%;
+}
+.tag{
+    position: relative;
+    left: 13px;
+    top: 13px;
+}
+.jnta,.jntp,.jntc,.jnto,.jntm{
+    height: 200px;
+    width: 220px;
+    background-color: #2979ff;
+    border-radius: 3%;
+    display: inline-block;
+    margin-right: 26px;
+    position: relative;
+    top: 20px;
+}
+.jntuacea,.jntuacep,.jntuacek,.jntop,.jntuasm{
+    height: 200px;
+    width: 220px;
+}
+.jntuacea,.jntuacep,.jntuacek,.jntop,.jntuasm{
+    height: 85%;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+}
+.name{  
+    color: white;
+    position: relative;
+    bottom: 30px;
+    text-align: center;  
+    font-size: 14px;
+    font-weight: bold;
+}
+.bar5{
+    background-color: rgb(192, 10, 107);
+    height: 3px;
+    width: 100%;
+    position: relative;
+    bottom: 937px;
+}
+.contact{
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    bottom: 930px;
+}
+.downloads a,.postal p,.otherlinks a,.gate a{
+    display: block;
+    color: rgb(73, 69, 69);
+    padding: 3px;
+    font-size: 14.5px;
+}
+.downloads a:hover,.otherlinks a:hover,.gate a:hover{
+    color: deeppink;
+}
+.postal{
+    display: inline-block;
+    position: relative;
+    left: 300px;
+    bottom: 240px;
+}
+.otherlinks{
+    position: relative;
+    left:600px;
+    bottom: 385px;
+}
+.gate{
+    position: relative;
+    left:920px;
+    bottom: 640px;
+}
+.contact h2{
+    font-size: 20px;
+}
+.final{
+    height: 40px;
+    width: 100%;
+    background-color: #2979ff;
+    position: relative;
+    bottom: 1420px;
+}
+
+
+  
