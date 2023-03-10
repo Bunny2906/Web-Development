@@ -649,6 +649,13 @@ button{
     position: relative;
     bottom: 1420px;
 }
+@media (max-width:480px)
+{
+    html
+    {
+        zoom: 33%;
+    }
+}
 
 
   
