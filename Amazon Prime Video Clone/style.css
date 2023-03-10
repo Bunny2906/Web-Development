@@ -394,3 +394,11 @@ a{
     font-size: small;
     color: rgb(128, 125, 122);
 }
+@media (max-width:480px)
+{
+    html
+    {
+        zoom: 27%;
+    }
+}
+
