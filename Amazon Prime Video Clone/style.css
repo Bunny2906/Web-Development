@@ -49,6 +49,7 @@ a{
     left: 410px;
     height: 50px;
     width: 100px;
+    font-weight: bold;
 }
 .cat a:hover{
     cursor: pointer;
