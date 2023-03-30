@@ -399,5 +399,9 @@ a{
     {
         zoom: 27%;
     }
+    body
+    {
+    	font-family: 'Amazon Ember', sans-serif;
+    }
 }
 
