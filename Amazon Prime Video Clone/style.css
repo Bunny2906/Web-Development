@@ -30,10 +30,8 @@ a{
     position: relative;
     left: 150px;
     bottom: 50px;
-    opacity: 80%;
-    font-weight: lighter;
+    font-weight: bold;
     font-size: 17px;
-    opacity: 0.8;
 }
 .dropdown img{
     height: 104px;
