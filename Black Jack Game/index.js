@@ -67,6 +67,6 @@ function playAgain()
 {
     if(!isAlive)
     {
-        window.location.href="blackjack.html";
+        window.location.href="index.html";
     }
 }
