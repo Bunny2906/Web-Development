@@ -3,6 +3,7 @@ body
     text-align: center; 
     margin: 0px;
     background-color: rgb(243, 244, 244);
+    font-family: 'Lato',sans-serif;
 }
 .game{
     height: 300px;
@@ -13,7 +14,7 @@ body
 }
 p
 {
-    font-size: 26px;
+    font-size: 23px;
 }
 button
 {
