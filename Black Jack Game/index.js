@@ -56,6 +56,7 @@ function blackJack()
         newcard.style.backgroundColor="rgb(230, 85, 85)"
         newcard.style.cursor="not-allowed"
         play.style.cursor="pointer"
+        message.style.animation="none"
     }
     message.textContent=msg;
 }
