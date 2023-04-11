@@ -40,7 +40,7 @@ function blackJack()
     }
     else if(sum===21)
     {
-        msg="You got black jack 🥳!!";
+        msg="You got black jack--You Won🥳!!";
         hasBlackJack=true
         isAlive=false
         play.style.backgroundColor="rgb(38, 225, 38)"
