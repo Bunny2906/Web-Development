@@ -4,10 +4,9 @@ body
     margin: 0px;
     background-color: rgb(243, 244, 244);
     font-family: 'Lato',sans-serif;
-    background-image: url(blackjack21.jpg),url(blackjack1.jpg);
-    background-position: center bottom,right bottom;
-    background-repeat: no-repeat,repeat;
-    background-size: 250px,300px;
+    background-image: url(blackjack1.jpg);
+    background-position: right bottom;
+    background-repeat: repeat;
 }
 .game{
     height: 300px;
