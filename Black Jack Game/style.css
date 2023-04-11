@@ -27,6 +27,7 @@ button
     border-radius: 5px;
     font-family: 'Lato',sans-serif;
     font-weight: bold;
+    margin-right: 10px;
 }
 #newcard,#play
 {
