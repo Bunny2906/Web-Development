@@ -4,13 +4,6 @@ body
     margin: 0px;
     background-color: rgb(243, 244, 244);
 }
-.game{
-    height: 50vh;
-    width: 100vh;
-    border: 2px solid black;
-    margin: auto;
-    margin-top: 20px;
-}
 p
 {
     font-size: 26px;
