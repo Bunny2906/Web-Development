@@ -7,6 +7,8 @@ let isAlive=true
 let hasBlackJack=false
 let sum=0
 let cards=[]
+play.style.cursor="not-allowed"
+newcard.style.cursor="not-allowed"
 function blackJack()
 {
     if(sum===0)
@@ -22,6 +24,7 @@ function blackJack()
     var msg="";
     sumel.textContent="Sum :"+sum;
     cardsInfo.textContent="Cards :"
+    newcard.style.cursor="pointer"
     for(let i=0;i<cards.length;i++)
     {
         cardsInfo.textContent+=cards[i]+" "
@@ -29,6 +32,11 @@ function blackJack()
     if(sum<=20)
     {
         msg="Draw new card ";
+        play.style.cursor="not-allowed"
+        if(sum!=0)
+        {
+            start.style.cursor="not-allowed"
+        }
     }
     else if(sum===21)
     {
@@ -36,14 +44,18 @@ function blackJack()
         hasBlackJack=true
         isAlive=false
         play.style.backgroundColor="rgb(38, 225, 38)"
-        newcard.style.backgroundColor="rgb(230, 85, 85)";
+        newcard.style.backgroundColor="rgb(230, 85, 85)"
+        newcard.style.cursor="not-allowed"
+        play.style.cursor="pointer"
     }
     else
     {
         msg="You're out of the game !!";
         isAlive=false
         play.style.backgroundColor="rgb(38, 225, 38)"
-        newcard.style.backgroundColor="rgb(230, 85, 85)";
+        newcard.style.backgroundColor="rgb(230, 85, 85)"
+        newcard.style.cursor="not-allowed"
+        play.style.cursor="pointer"
     }
     message.textContent=msg;
 }
