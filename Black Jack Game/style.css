@@ -4,6 +4,13 @@ body
     margin: 0px;
     background-color: rgb(243, 244, 244);
 }
+.game{
+    height: 300px;
+    width: 500px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 20px;
+}
 p
 {
     font-size: 26px;
@@ -21,8 +28,4 @@ button
 #newcard,#play
 {
     background-color: rgb(230, 85, 85);
-}
-@media (max-width:480px)
-{
-   
 }
