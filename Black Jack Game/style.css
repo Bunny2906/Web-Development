@@ -52,14 +52,14 @@ button
             color:black;
        }
        30%{
-           color:yellow;
+           color:rgb(53, 12, 100);
        }
        50%
        {
             color: #ec0909;    
        }
        70%{
-            color:blue;
+            color:green;
        }
        100%
        {   
