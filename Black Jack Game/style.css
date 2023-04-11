@@ -36,3 +36,35 @@ button
 {
     background-color: rgb(230, 85, 85);
 }
+#message
+{
+    animation: blinkingText 1s infinite;
+    color: rgb(219, 4, 119);
+    font-family: 'Lato',sans-serif;
+}
+@keyframes blinkingText {
+    0%
+       {
+            color:white;
+       }
+       20%
+       {
+            color:black;
+       }
+       30%{
+           color:yellow;
+       }
+       50%
+       {
+            color: #ec0909;    
+       }
+       70%{
+            color:blue;
+       }
+       100%
+       {   
+            color: #E8ADAA;
+       }
+    }
+
+
