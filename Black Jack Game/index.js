@@ -50,7 +50,7 @@ function blackJack()
     }
     else
     {
-        msg="You're out of the game !!";
+        msg="You're out of the game !!  Better Luck Next Time.";
         isAlive=false
         play.style.backgroundColor="rgb(38, 225, 38)"
         newcard.style.backgroundColor="rgb(230, 85, 85)"
