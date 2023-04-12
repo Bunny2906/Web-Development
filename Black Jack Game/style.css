@@ -66,5 +66,10 @@ button
             color: #E8ADAA;
        }
     }
-
+@media (max-width: 480px) {
+    .game{
+        margin-top: 300px;
+        width: 500px;
+    }
+}
 
