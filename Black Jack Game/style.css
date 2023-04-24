@@ -39,7 +39,7 @@ button
 #message
 {
     animation: blinkingText 1s infinite;
-    color: rgb(219, 4, 119);
+    color: black;
     font-family: 'Lato',sans-serif;
 }
 @keyframes blinkingText {
