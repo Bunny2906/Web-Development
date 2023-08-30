@@ -77,7 +77,7 @@ a{
 .medialinks{
    display: inline-block;
    position: relative;
-   left: 130px;
+   left: 150px;
    top: 5px;
 }
 .degree{
@@ -590,6 +590,12 @@ html{
         height: 40px;
         width: 40px;
         font-size: 25px;
+    }
+    .btn1{
+        padding: 19px 136px;
+    }
+    .btn2{
+        padding: 19px 82px;
     }
 }
 
