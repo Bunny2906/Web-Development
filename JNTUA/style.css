@@ -591,11 +591,14 @@ html{
         width: 40px;
         font-size: 25px;
     }
+    .content{
+        margin-top: -100px;
+    }
     .btn1{
-        padding: 19px 136px;
+        padding: 19px 139px;
     }
     .btn2{
-        padding: 19px 82px;
+        padding: 19px 84px;
     }
 }
 
