@@ -488,7 +488,7 @@ button{
 .constituent{
     position: relative;
     left: 80px;
-    bottom: 925px;
+    bottom: 905px;
 }
 .blue-head{
     position: relative;
@@ -538,7 +538,7 @@ button{
     height: 3px;
     width: 100%;
     position: relative;
-    bottom: 917px;
+    bottom: 900px;
 }
 .contact{
     display: inline-block;
@@ -578,8 +578,12 @@ button{
     height: 40px;
     width: 100%;
     background-color: #2979ff;
+    color: white;
+    font-size: 14px;
     position: relative;
-    bottom: 1420px;
+    bottom: 1400px;
+    text-align: center;
+    padding-top: 15px;
 }
 html{
     -webkit-text-size-adjust: 100%;
