@@ -1,4 +1,5 @@
 let html = document.getElementsByTagName("html");
+let final = document.querySelector(".final");
 let carousel = document.querySelector(".carousel");
 let dateinf = document.querySelector(".dateinf");
 var currDate = new Date();
@@ -44,7 +45,7 @@ nextBtn.addEventListener('click',()=>{
 previousBtn.addEventListener('click',()=>{
     currIndex--;
     if(currIndex < 0){
-        currIndex = 6;
+        currIndex = 6;  
     }
     carouselimg.src=images[currIndex];
     console.log(images[currIndex])
@@ -58,6 +59,7 @@ setInterval(()=>{
     carouselimg.src=images[currIndex];
     console.log(currIndex);
 },3000);
+final.innerHTML="All Copyright &copy; "+year+" Jawaharlal Nehru Technological University Anantapur. All Rights Reserved.";
 var x = window.matchMedia("(max-width: 480px)");
 if(x.matches){
     html.style.zoom = "28%";
