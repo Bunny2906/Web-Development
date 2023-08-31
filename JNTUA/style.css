@@ -28,13 +28,13 @@ a{
     position: relative;
     left:70px;
     top: 5px;
-    font-weight: normal;
+    font-size: 13px;
 }
 .ragging{
     position: absolute;
     right: 85px;
     top: 5px;
-    font-weight: normal;
+    font-size: 13px;
 }
 .logo{
     position: relative;
