@@ -454,7 +454,7 @@ button{
 .bar3{
     background-color: rgb(192, 10, 107);
     height: 5px;
-    width: 90%;
+    width: 100%;
     margin-bottom: 5px;
 }
 .tab{
@@ -482,7 +482,7 @@ button{
 .bar4{
     background-color: rgb(192, 10, 107);
     height: 5px;
-    width: 90%;
+    width: 100%;
     margin-bottom: 5px;
 }
 .constituent{
@@ -492,7 +492,7 @@ button{
 }
 .blue-head{
     position: relative;
-    top: 6px;
+    top: 16px;
     left:0px;
     background-color: #2979ff;
     color: white;
