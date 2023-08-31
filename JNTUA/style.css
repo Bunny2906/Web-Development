@@ -332,7 +332,7 @@ h2{
 .content{
     position: relative;
     left: 360px;
-    bottom: 810px;
+    bottom: 890px;
     width: 72%;
 }
 .text{
@@ -448,7 +448,7 @@ button{
 .download{
     position: relative;
     left: 80px;
-    bottom: 940px;
+    bottom: 880px;
     font-size: 14px;
 }
 .bar3{
@@ -596,7 +596,8 @@ html{
         font-size: 25px;
     }
     .content{
-        margin-top: -82px;
+    position: relative;
+    bottom: 810px;
     }
 }
 
