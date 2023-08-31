@@ -210,6 +210,9 @@ li{
     margin-left: 50px;
     margin-right: 50px;
 }
+.information{
+    width: 100%;
+}
 .carousel{
     width: 100%;
     position: relative;
@@ -247,6 +250,7 @@ li{
     position: relative;
     left: 10px;
     margin-right: 930px;
+    width: 26%;
 }
 .bar1{
     position: relative;
@@ -329,7 +333,7 @@ h2{
     position: relative;
     left: 360px;
     bottom: 890px;
-    margin-right: 350px;
+    width: 72%;
 }
 .text{
     position: relative;
