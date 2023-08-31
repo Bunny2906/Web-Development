@@ -1,5 +1,31 @@
 let html = document.getElementsByTagName("html");
 let carousel = document.querySelector(".carousel");
+let dateinf = document.querySelector(".dateinf");
+var currDate = new Date();
+let dayList = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+let monthList = ['January','Febraury','March','April','May','June','July','August','September','October','November','December'];
+let date = currDate.getDate();
+let day = dayList[currDate.getDay()];
+let month = monthList[currDate.getMonth()];
+let year = currDate.getFullYear();
+var prefix;
+if(date%10 == 1)
+{
+    prefix="st";
+}
+else if(date%10 == 2)
+{
+    prefix="nd";
+}
+else if(date%10 == 3)
+{
+    prefix="rd";
+}
+else
+{
+    prefix="th";
+}
+dateinf.textContent = day+" "+date+prefix+" "+month+" "+year;
 let images = ["images/image1.jpg","images/image2.jpg","images/image3.jpg","images/image4.jpg","images/image5.jpg","images/image6.png","images/image7.png"];
 let carouselimg = document.querySelector(".carouselimg");
 previousBtn = document.querySelector('.previous');
