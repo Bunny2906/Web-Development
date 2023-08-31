@@ -538,13 +538,13 @@ button{
     height: 3px;
     width: 100%;
     position: relative;
-    bottom: 937px;
+    bottom: 917px;
 }
 .contact{
     display: inline-block;
     position: relative;
     left: 100px;
-    bottom: 930px;
+    bottom: 910px;
 }
 .downloads a,.postal p,.otherlinks a,.gate a{
     display: block;
